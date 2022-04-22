@@ -3,7 +3,7 @@ import Observable from '../../modules/observable'
 
 export const loadTabObservableSimple = (targetId) => loadTabPage(
     document.getElementById(targetId), 
-    'src/pages/observable-simple/observable-simple.html',
+    'pages/observable-simple/observable-simple.html',
     () => {
         const observableSimpleInputTextA = document.getElementById('observable-simple-inputText-a')
         const observableSimpleInputTextB = document.getElementById('observable-simple-inputText-b')

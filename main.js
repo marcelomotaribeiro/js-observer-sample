@@ -4,8 +4,8 @@ import 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { loadTabObservableSimple } from './src/pages/observable-simple/observable-simple'
-import { loadTabObservableInterpolation } from './src/pages/observable-interpolation/observable-interpolation'
+import { loadTabObservableSimple } from './pages/observable-simple/observable-simple'
+import { loadTabObservableInterpolation } from './pages/observable-interpolation/observable-interpolation'
 
 var tabs = document.querySelectorAll('button[data-bs-toggle="tab"]')
 

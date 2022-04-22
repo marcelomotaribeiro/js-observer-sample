@@ -3,7 +3,7 @@ import Observable from '../../modules/observable'
 
 export const loadTabObservableInterpolation = (targetId) => loadTabPage(
     document.getElementById(targetId), 
-    'src/pages/observable-interpolation/observable-interpolation.html',
+    'pages/observable-interpolation/observable-interpolation.html',
     (selectedTab) => {
         const observableInterpolationInputTextId = 'observable-interpolation-inputText'
         selectedTab.innerHTML = selectedTab.innerHTML.replaceAll(
