@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Observer</title>
+  </head>
+  <body>
+    <div id="app">
+      <p class="display-5">Javascript Observer Sample</p>
+      <p>Esta página foi criada com propósitos educacionais.</p>
+      <p>O objetivo é demonstrar uma forma de implementação do padrão <a href="https://refactoring.guru/pt-br/design-patterns/observer" target="_blank" class="link-secondary">Observer</a>.</p>
+      <p>O código-fonte pode ser acessado no seguinte repositório: <a href="https://github.com/marcelomotaribeiro/js-observer-sample" target="_blank" class="link-secondary">pocs-js-vanilla</a></p>
+      <p class="text-black-50"><small>Obs.: O conteúdo das abas é carregado por demanda, utilizando o padrão lazy-loading.</small></p>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-observable-simple" data-bs-toggle="tab" data-bs-target="#tab-observable-simple" type="button" role="tab" aria-controls="nav-observable-simple" aria-selected="true"><strong>Simple observer</strong></button>
+          <button class="nav-link" id="nav-observable-interpolation" data-bs-toggle="tab" data-bs-target="#tab-observable-interpolation" type="button" role="tab" aria-controls="nav-observable-interpolation" aria-selected="false"><strong>Interpolation</strong></button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="tab-observable-simple" role="tabpanel" aria-labelledby="nav-observable-simple"></div>
+        <div class="tab-pane fade" id="tab-observable-interpolation" role="tabpanel" aria-labelledby="nav-observable-interpolation"></div>
+      </div>     
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

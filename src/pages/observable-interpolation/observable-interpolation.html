@@ -1,0 +1,19 @@
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col text-black-50">
+            <p><small>Neste exemplo temos um campo como "publisher" e um espaço no texto como "subscriber". O efeito é a interpolação do texto de acordo com as publicações realizadas à partir das alterações no campo.</small></p>
+        </div>
+    </div>    
+    <div class="row mb-3">
+        <div class="col">
+            
+            <div class="form-floating">
+                <input type="text" class="form-control" id="observable-interpolation-inputText" aria-describedby="observable-interpolation-inputText" placeholder="Sentença">
+                <label for="observable-interpolation-inputText" class="form-label">Sentença</label>
+            </div>
+        </div>             
+    </div>
+    <div class="row">
+        <div class="col">O conteúdo da sentença é: {{observable-interpolation-inputText}}</div>             
+    </div>     
+</div>
