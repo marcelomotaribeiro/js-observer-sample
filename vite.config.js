@@ -1,6 +1,6 @@
-const { resolve } = require('path')
+import { resolve } from 'path'
 
-export const build = {
+module.exports = {
   rollupOptions: {
     input: {
       main: resolve(__dirname, 'index.html'),
